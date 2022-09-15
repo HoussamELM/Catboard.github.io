@@ -1,153 +1,145 @@
 :root {
-  --blue: #1992d4;
-  --yellow: #facc15;
-  --oyellow: #f0b429;
-  --kwhite: #e2e8f0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	--blue: #1992d4;
+	--yellow: #facc15;
+	--oyellow: #f0b429;
+	--kwhite: #e2e8f0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 /* div:hover{
-    border: 1px dashed black;
-} */
-
+	border: 1px dashed black;
+}
+*/
 .nicon {
-  width: 45%;
+	width: 45%;
 }
 .sicon {
-  width: 50%;
+	width: 50%;
 }
 .cat img {
-  width: 50%;
-  border-radius: 1000px;
+	width: 50%;
+	border-radius: 1000px;
 }
 .cat2 {
-  width: 40%;
-  border-radius: 1000px;
-  justify-self: end;
-  margin-right: 10%;
+	width: 40%;
+	border-radius: 1000px;
+	justify-self: end;
+	margin-right: 10%;
 }
 .cat {
-  display: flex;
-  justify-content: center;
+	display: flex;
+	justify-content: center;
 }
 .logo {
-  display: flex;
-  align-items: center;
-  font-size: x-large;
+	display: flex;
+	align-items: center;
+	font-size: x-large;
 }
 .logo .dash {
-  width: 5rem;
+	width: 5rem;
 }
 .container {
-  display: grid;
-  grid-template-columns: 20% 80%;
-  grid-template-rows: 100vh;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	grid-template-rows: 100vh;
 }
 .sidebar {
-  background-color: var(--blue);
-  display: grid;
-  grid-template-rows: 15% 30% 55%;
-  justify-items: start;
-  padding-left: 15%;
-  color: white;
-  font-weight: bold;
-  gap: 5%;
+	background-color: var(--blue);
+	display: grid;
+	grid-template-rows: 15% 30% 55%;
+	justify-items: start;
+	padding-left: 15%;
+	color: white;
+	font-weight: bold;
+	gap: 5%;
 }
-
 .sidebar ul li{
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    margin-top: 15px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 15px;
 }
-
-
-
 .sidebar :nth-child(3){
-    align-self: start;
+	align-self: start;
 }
-
-
 .main {
-  background-color: var(--kwhite);
-  display: grid;
-  grid-template-rows: 15vh 85vh;
+	background-color: var(--kwhite);
+	display: grid;
+	grid-template-rows: 15vh 85vh;
 }
 .main .top {
-  display: grid;
-  align-items: center;
-  background-color: white;
-  padding-top: 0.7%;
-  padding-bottom: 0.7%;
+	display: grid;
+	align-items: center;
+	background-color: white;
+	padding-top: 0.7%;
+	padding-bottom: 0.7%;
 }
 .top .search {
-  display: grid;
-  grid-template-columns: 3fr 1fr;
-  align-items: center;
+	display: grid;
+	grid-template-columns: 3fr 1fr;
+	align-items: center;
 }
 .top input {
-  border-radius: 1000px;
-  background-color: var(--kwhite);
-  border: solid white;
+	border-radius: 1000px;
+	background-color: var(--kwhite);
+	border: solid white;
 }
 .top .top1 {
-  display: grid;
-  grid-template-columns: 5% 80%;
-  margin-left: 5%;
+	display: grid;
+	grid-template-columns: 5% 80%;
+	margin-left: 5%;
 }
 .top .top2 {
-  display: grid;
-  grid-template-columns: 0.5fr 1fr 1fr;
-  align-items: center;
-  margin-right: 20%;
-  column-gap: 3%;
+	display: grid;
+	grid-template-columns: 0.5fr 1fr 1fr;
+	align-items: center;
+	margin-right: 20%;
+	column-gap: 3%;
 }
 .top .top2 .nicon {
-  justify-self: end;
+	justify-self: end;
 }
 .top .top2 .name {
-  justify-self: start;
-  width: 100%;
+	justify-self: start;
+	width: 100%;
 }
-.name,
-.hello h1 {
-  font-size: 1.5rem;
-  font-weight: bolder;
+.name,.hello h1 {
+	font-size: 1.5rem;
+	font-weight: bolder;
 }
 .hello p {
-  font-weight: bolder;
+	font-weight: bolder;
 }
 .nav {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-items: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-items: center;
 }
 .n1 {
-  display: grid;
-  grid-template-columns: 20% 80%;
-  align-items: center;
-  justify-items: left;
+	display: grid;
+	grid-template-columns: 20% 80%;
+	align-items: center;
+	justify-items: left;
 }
 .n2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  width: 60%;
-  align-items: center;
-  justify-items: center;
-  text-align: center;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	width: 60%;
+	align-items: center;
+	justify-items: center;
+	text-align: center;
 }
 .n2 button {
-  background-color: var(--blue);
-  border-radius: 1000px;
-  border: none;
-  width: 50%;
-  height: 180%;
-  color: white;
+	background-color: var(--blue);
+	border-radius: 1000px;
+	border: none;
+	width: 50%;
+	height: 180%;
+	color: white;
 }
 .n2 :nth-child(1) {
-  justify-self: end;
+	justify-self: end;
 }
 .n2 :nth-child(3) {
-  justify-self: start;
+	justify-self: start;
 }
