@@ -1,0 +1,33 @@
+@keyframes zoomIn {
+    from{   
+        scale: 1;
+    }
+    to{
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: scale(1.1);
+    }
+}
+
+li:hover , button:hover, .nicon:hover, .sicon:hover{
+    animation-name: zoomIn;
+    animation-fill-mode: both;
+    animation-duration: 100ms;
+    cursor: pointer;
+}
+
+@keyframes zoomOut {
+    from{   
+        scale: 1.1;
+    }
+    to{
+        -webkit-backface-visibility: hidden;
+        -webkit-transform: scale(1);
+    }
+}
+
+li:active , button:active, .nicon:active, .sicon:active{
+    animation-name: zoomOut;
+    animation-fill-mode: both;
+    animation-duration: 100ms;
+}
+
