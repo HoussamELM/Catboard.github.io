@@ -5,13 +5,11 @@
 	--kwhite: #e2e8f0;
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-/* div:hover{
-	border: 1px dashed black;
+
+body{
+	overflow: hidden;
 }
-*/
-.nicon {
-	width: 45%;
-}
+
 .sicon {
 	width: 50%;
 }
@@ -64,7 +62,7 @@
 .main {
 	background-color: var(--kwhite);
 	display: grid;
-	grid-template-rows: 15vh 85vh;
+	grid-template-rows: 15vh 5vh 80vh;
 }
 .main .top {
 	display: grid;
@@ -142,4 +140,110 @@
 }
 .n2 :nth-child(3) {
 	justify-self: start;
+}
+
+.mid{
+	display: grid;
+	grid-template-columns: 75% 25%;
+	align-items: end;
+}
+.mid :nth-child(1) {
+margin-left: 5%;
+}
+.bottom{
+	display: grid;
+	grid-template-columns: 75% 25%;
+}
+.left{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	align-items: center;
+	justify-items: center;
+}
+.card{
+	width: 70%;
+	height: 60%;
+	background-color: white;
+	border-radius: 10px;
+	border-left: 7px solid var(--oyellow);
+	display: grid;
+	padding: 5%;
+}
+.card h1, .right h1, .mid h1{
+	font-size: 1.2em;
+	font-weight: bold;
+}
+.card .cardIcon{
+	justify-self: end;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	align-items: end;
+	justify-items: end;
+	width: 50%;
+	
+}
+.card .text{
+	align-self: end;
+	display: grid;
+	row-gap: 6px;
+}
+
+.card2{
+	margin-top: 6%;
+	width: 70%;
+	height: 70%;
+	border-radius: 10px;
+	background-color: white;
+	grid-template-rows: 1fr 1fr 1fr;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	padding: 10%;
+}
+.card2-2{
+	margin-top: 6%;
+	width: 70%;
+	height: 63%;
+	border-radius: 10px;
+	background-color: white;
+	grid-template-rows: 1fr 1fr 1fr 1fr;
+	display: grid;
+	align-content: center;
+	justify-content: center;
+	padding: 10%;
+	row-gap: 5px;
+}
+
+.card2 h1{
+	font-size: 1em;
+	font-weight: bold;
+}
+.card2 p{
+	font-size: 0.9em;
+	color: grey;
+}
+.card2-2 img{
+width: 100%;
+border-radius: 1000px;
+}
+
+.card2A{
+	display: grid;
+	grid-template-columns: 1fr 3.5fr ;
+	column-gap: 15px ;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	line-height: 20px;
+	
+}
+
+.card2A p{
+	font-size: 0.8em;
+	
+}
+
+.right{
+	display: grid;
+	grid-template-rows: 1fr 1fr;
 }
